@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Intro from "./components/intro";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <nav>TESTING</nav>
       </header>
+      <section>
+        <h1>ADIOS</h1>
+      </section>
+      <h2>CAST</h2>
+      <Intro name= "Evan Peters" role="Tate Langdon"/>
+      <Intro name= "Taisa Farmiga" role="Violet Harmon"/>
     </div>
   );
 }
+console.log("halo")
 
 export default App;
