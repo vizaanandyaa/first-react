@@ -22,7 +22,7 @@ class Counter extends Component {
         return <ul>{this.state.tags.map(tag => <li key={tag}>{tag}</li>)}</ul>
     }*/
 
-    handleIncrement = () => {  // () => is access to this props or objects and another ways beside using constructor and super
+    handleIncrement = () => {  // () => ITS A BINDING or access to this props or objects and another ways beside using constructor and super 
         this.setState({value : this.state.value + 1}) // setState used to update state
     }
 
